@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+
+
+@theme {
+  /* Tipografía caligráfica para el logo / destaques */
+  --font-mea-culpa: "Mea Culpa", cursive;
+ /* Tipografía sans-serif limpia para todo el sitio */
+  --font-sans: "Montserrat", sans-serif;
+  /* Colores de la marca */
+  --color-brand-blue: #003366;
+}
 

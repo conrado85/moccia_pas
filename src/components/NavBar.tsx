@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+
 
 export default function NavBar() {
   const navItems = [
@@ -26,9 +26,8 @@ export default function NavBar() {
     { name: "Proxis", path: "/empresa/proxis" },
   ];
 
-
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-200 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -53,25 +52,44 @@ export default function NavBar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
+            <details>
+              <summary>Seguros</summary>
+              <ul className="p-2 bg-base-100 w-40 z-1">
+                {navSecure.map((item) => (
+                  <li key={item.name}>
+                    <Link to={item.path}>{item.name}</Link>
+                  </li>
+                ))}
               </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Empresa</summary>
+              <ul className="p-2 bg-base-100 w-40 z-1">
+                {navCompany.map((item) => (
+                  <li key={item.name}>
+                    <Link to={item.path}>{item.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </li>
+          {navItems.map((item) => (
+            <li key={item.name}>
+              <Link to={item.path}>{item.name}</Link>
             </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+          ))}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Moccia Pas</a>
+        <a className="text-xl">
+          <Link to="/">
+           <span className="font-mea-culpa text-3xl text-brand-blue leading-none">
+          Moccia Pas
+        </span>
+           
+          </Link>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -87,7 +105,7 @@ export default function NavBar() {
               </ul>
             </details>
           </li>
-           <li>
+          <li>
             <details>
               <summary>Empresa</summary>
               <ul className="p-2 bg-base-100 w-40 z-1">
@@ -100,14 +118,14 @@ export default function NavBar() {
             </details>
           </li>
           {navItems.map((item) => (
-                  <li key={item.name}>
-                    <Link to={item.path}>{item.name}</Link>
-                  </li>
-                ))}
+            <li key={item.name}>
+              <Link to={item.path}>{item.name}</Link>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Cotizar</a>
+        <a className="btn btn-primary bg-brand-blue w-36 rounded-full">Cotizar</a>
       </div>
     </div>
   );
