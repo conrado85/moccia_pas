@@ -1,4 +1,4 @@
-import Card from "./ui/Card";
+import Card from "./Card";
 
 export default function QuoteGenerator() {
   return (
