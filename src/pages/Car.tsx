@@ -1,7 +1,9 @@
-
+import TableCar from '../components/TableCar'
 
 export default function Car() {
   return (
-    <div>auto</div>
+    <div>
+      <TableCar />
+    </div>
   )
 }

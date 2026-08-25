@@ -54,7 +54,7 @@ export default function NavBar() {
             <li>
             <details>
               <summary>Seguros</summary>
-              <ul className="p-2 bg-base-100 w-40 z-1">
+              <ul className="p-2 bg-base-100 w-45 z-1">
                 {navSecure.map((item) => (
                   <li key={item.name}>
                     <Link to={item.path}>{item.name}</Link>
@@ -66,7 +66,7 @@ export default function NavBar() {
           <li>
             <details>
               <summary>Empresa</summary>
-              <ul className="p-2 bg-base-100 w-40 z-1">
+              <ul className="p-2 bg-base-100 w-45 z-1">
                 {navCompany.map((item) => (
                   <li key={item.name}>
                     <Link to={item.path}>{item.name}</Link>
@@ -96,7 +96,7 @@ export default function NavBar() {
           <li>
             <details>
               <summary>Seguros</summary>
-              <ul className="p-2 bg-base-100 w-40 z-1">
+              <ul className="p-2 bg-base-100 w-45 z-1">
                 {navSecure.map((item) => (
                   <li key={item.name}>
                     <Link to={item.path}>{item.name}</Link>
@@ -108,7 +108,7 @@ export default function NavBar() {
           <li>
             <details>
               <summary>Empresa</summary>
-              <ul className="p-2 bg-base-100 w-40 z-1">
+              <ul className="p-2 bg-base-100 w-45 z-1">
                 {navCompany.map((item) => (
                   <li key={item.name}>
                     <Link to={item.path}>{item.name}</Link>

@@ -11,12 +11,12 @@ export default function QuoteGenerator() {
         opciones en pantalla. Si te cierra el precio, contratás. Si querés
         revisar, te atiende un PAS.
       </p>
-      <div className=" w-3/4 mx-auto bg-blue-50 p-10 rounded-lg shadow-lg">
-        <div className="max-w-4xl mx-auto text-center">
+      <div className=" lg:w-3/4 mx-auto bg-blue-50 p-10 rounded-lg shadow-lg">
+        <div className="lg:max-w-4xl mx-auto lg:text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
             ¿Qué seguro querés <span className="text-blue-600">Cotizar?</span>
           </h2>
-          <p className="py-6 text-gray-600">
+          <p className="py-6 text-gray-600 text-center">
             Elegí el tipo de vehículo para obtener tu cotización personalizada
           </p>
           <div className="flex flex-wrap justify-center gap-4">
