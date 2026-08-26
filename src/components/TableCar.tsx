@@ -103,8 +103,7 @@ export default function TableCar() {
         Cada compañía arma su producto distinto, pero la base es la misma. Estas
         son las coberturas que vas a ver en la cotización.
       </p>
-        <Table rows={rows} columns={columns} />
-      
+      <Table rows={rows} columns={columns} />
     </div>
   );
 }

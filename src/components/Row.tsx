@@ -1,15 +1,8 @@
 import { X, Check } from 'lucide-react';
-
-export type TableRow = {
-  id: number;
-  cobertura: string;
-  responsabilidadCivil: boolean;
-  terceroCompleto: boolean;
-  todoRiesgo: boolean;
-};
+import { type TableRow } from './Table'
 
 type RowProps = {
-  row: TableRow;
+  row : TableRow;
 };
 
 export default function Row({ row }: RowProps) {
