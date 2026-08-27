@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import HeroSections from "../components/HeroSections";
 import QuoteGenerator from "../components/QuoteGenerator";
-import { porque } from "../data/landingpage";
+import { porque, queaseguramos } from "../data/landingpagedata";
 
 export default function LandingPage() {
   return (
@@ -15,6 +15,15 @@ export default function LandingPage() {
         }}
         tarjetas={porque}
       />
+      <div className="bg-blue-100">
+        <HeroSections
+          cabecera={{
+            volanta: "QUÉ ASEGURAMOS?",
+            titulo: "Lo que querés cubrir, lo cotizamos.",
+          }}
+          tarjetas={queaseguramos}
+        />
+      </div>
     </div>
   );
 }

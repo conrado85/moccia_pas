@@ -14,5 +14,6 @@
   --font-sans: "Montserrat", sans-serif;
   /* Colores de la marca */
   --color-brand-blue: #003366;
+  --color-base-primario:#F3F8FC;
+  --color-base-secundario:#F8FAFC
 }
-

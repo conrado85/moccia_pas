@@ -5,6 +5,8 @@ export type CuerpoTarjetas = {
   subtitulo: string;
   bajada: string;
   icon?: ReactNode;
+  navegacion?: string
+  cotizar?: string
 };
 
 export type CuerpoCabecera = {

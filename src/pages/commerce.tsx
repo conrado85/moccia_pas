@@ -1,7 +1,7 @@
 
 
-export default function commerce() {
+export default function Commerce() {
   return (
-    <div>commerce</div>
+    <div>Commerce</div>
   )
 }

@@ -4,17 +4,6 @@ import type {
   CuerpoTarjetas,
 } from "../types/heroSections.types";
 
-// export type CuerpoTarjetas = {
-//   id: number;
-//   subtitulo: string;
-//   bajada: string;
-//   icon?: ReactNode;
-// };
-
-// export type CuerpoCabecera = {
-//   volanta: string;
-//   titulo: string;
-// };
 
 type CuerpoProps = {
   tarjetas: CuerpoTarjetas[];
