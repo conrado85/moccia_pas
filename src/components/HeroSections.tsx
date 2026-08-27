@@ -1,17 +1,20 @@
 import HeroSectionsCard from "./HeroSectionsCard";
-import type { ReactNode } from "react";
+import type {
+  CuerpoCabecera,
+  CuerpoTarjetas,
+} from "../types/heroSections.types";
 
-export type CuerpoTarjetas = {
-  id: number;
-  subtitulo: string;
-  bajada: string;
-  icon?: ReactNode;
-};
+// export type CuerpoTarjetas = {
+//   id: number;
+//   subtitulo: string;
+//   bajada: string;
+//   icon?: ReactNode;
+// };
 
-export type CuerpoCabecera = {
-  volanta: string;
-  titulo: string;
-};
+// export type CuerpoCabecera = {
+//   volanta: string;
+//   titulo: string;
+// };
 
 type CuerpoProps = {
   tarjetas: CuerpoTarjetas[];
@@ -26,11 +29,11 @@ export default function HeroSections({
     <section className="max-w-3/4 flex flex-col mx-auto pt-10 pb-5 px-4">
 
       <div>
-        <p className="py-2 text-xs text-gray-500">
+        <p className="py-2 text-sm text-gray-500">
           {cabecera.volanta}
         </p>
 
-        <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-3">
+        <h2 className="text-2xl lg:text-3xl  text-gray-800 mb-3">
           {cabecera.titulo}
         </h2>
       </div>

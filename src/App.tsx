@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MainLayout } from './layouts/MainLayout';
-import Home from './pages/Home';
+import Home from './pages/LandingPage';
 import Cotizador from './pages/Cotizador';
 import NotFound from './pages/NotFound ';
 import About from './pages/About';
