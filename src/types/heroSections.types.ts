@@ -5,11 +5,14 @@ export type CuerpoTarjetas = {
   subtitulo: string;
   bajada: string;
   icon?: ReactNode;
-  navegacion?: string
-  cotizar?: string
+  navegacion?: string;
+  cotizar?: string;
+  color?: string;
+  boton?: string;
 };
 
 export type CuerpoCabecera = {
   volanta: string;
   titulo: string;
+  copete?: string;
 };

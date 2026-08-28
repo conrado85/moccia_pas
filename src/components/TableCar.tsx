@@ -94,9 +94,9 @@ const columns: TableColumn<TableRow>[] = [
 
 export default function TableCar() {
   return (
-    <div className="max-w-3/4  flex flex-col mx-auto pt-10 pb-5  px-4 ">
+    <div className="w-full gl:max-w-3/4  flex flex-col mx-auto pt-10 pb-5  px-4 ">
       <p className="py-2  lg:text-xs text-gray-500">01 · QUÉ CUBRE TU PÓLIZA</p>
-      <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-3">
+      <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 ">
         Cobertura clara, sin letra chica innecesaria.
       </h2>
       <p className="py-6 text-gray-600">

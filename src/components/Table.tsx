@@ -22,12 +22,12 @@ type TableProps<T> = {
 export default function Table<t>({rows , columns}: TableProps<t>) {
   return (
     <div>
-      <div className="overflow-x-auto text-sm lg:text-2xl  rounded-box border border-base-content/5 bg-base-100">
+      <div className="overflow-x-auto text-sm lg:text-2xl  rounded-box border border-base-content/20 bg-base-secundario">
         <table className="table">
 
              {/* head */}
           <thead>
-             <tr className="bg-base-200">
+             <tr className="bg-brand-blue text-white">
               {columns.map((column) => (
                 <th key={String(column.key)}>
                   {column.label}

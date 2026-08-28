@@ -8,7 +8,7 @@ const navigate = useNavigate();
     { 
       name: "Auto",
       icon: (
-        <Car className="h-20 w-20 text-blue-600  bg-blue-50 rounded-full" />
+        <Car className="h-20 w-20 text-blue-600" />
       ),
       description: "Proteje tu auto y viaja tranquilo",
       navigateTo: "/cotizar"
@@ -16,7 +16,7 @@ const navigate = useNavigate();
     {
       name: "Moto",
       icon: (
-        <Bike className="h-20 w-20 text-blue-600 bg-blue-50 rounded-full" />
+        <Bike className="h-20 w-20 text-blue-600" />
       ),
       description: "Proteje tu moto y disfruta del camino",
       navigateTo: "/seguros/motorbike"
