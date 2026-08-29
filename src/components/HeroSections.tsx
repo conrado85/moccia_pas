@@ -11,7 +11,7 @@ type CuerpoProps = {
 
 export default function HeroSections({ tarjetas, cabecera }: CuerpoProps) {
   return (
-    <section className="w-full lg:max-w-3/4 flex flex-col mx-auto pt-10 pb-20 px-4">
+    <section className="w-full max-w-7xl flex flex-col mx-auto pt-10 pb-5 px-4">
       <div>
         <p className="py-2 text-sm text-gray-500">{cabecera.volanta}</p>
 

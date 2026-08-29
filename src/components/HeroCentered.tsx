@@ -7,7 +7,7 @@ type HeroCenteredProps = {
 
 export default function HeroCentered({ cuerpo }: HeroCenteredProps) {
   return (
-    <div className="w-full lg:max-w-3/4 flex flex-col mx-auto pt-5 pb-10 px-4">
+    <div className="w-full max-w-7xl  flex flex-col mx-auto pt-5 pb-10 px-4">
       <p className="py-2 text-sm text-gray-500">{cuerpo.volanta}</p>
       <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-3">
         {cuerpo.titulo}

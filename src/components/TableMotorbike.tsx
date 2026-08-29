@@ -20,12 +20,12 @@ const rows : TableRow[] = [
     cobertura: "Robo parcial (rueda y batería)",
     responsabilidadCivil: "excluded",
     terceroCompleto: "excluded",
-    todoRiesgo: "excluded",
+    todoRiesgo: "plan",
   },
   {
     id: 4,
     cobertura: "Incendio total",
-    responsabilidadCivil: "included",
+    responsabilidadCivil: "plan",
     terceroCompleto: "excluded",
     todoRiesgo: "excluded",
   },
@@ -83,27 +83,24 @@ const columns: TableColumn<TableRow>[] = [
     label: "Responsabilidad civil",
   },
   {
-    key: "terceroCompleto",
-    label: "Terceros completo",
-  },
-  {
     key: "todoRiesgo",
-    label: "Todo riesgo",
-  },
+    label: "Totales",
+},
+{
+  key: "terceroCompleto",
+  label: "Terceros completo",
+},
 ];
 
-export default function TableCar() {
+export default function TableMotorbike() {
   return (
-    <div className="w-full max-w-7xl flex flex-col mx-auto pt-10 pb-5  px-4 ">
+    <div className="w-full max-w-7xl  flex flex-col mx-auto pt-10 pb-5  px-4 ">
       <p className="py-2  lg:text-xs text-gray-500">01 · QUÉ CUBRE TU PÓLIZA</p>
       <h2 className="text-2xl lg:text-3xl font-bold text-gray-800 ">
-        Cobertura clara, sin letra chica innecesaria.
+        En motos las coberturas se dividen en tres planes.
       </h2>
-      <p className="py-6 text-gray-600">
-        Cada compañía arma su producto distinto, pero la base es la misma. Estas
-        son las coberturas que vas a ver en la cotización.
-      </p>
       <Table rows={rows} columns={columns} />
     </div>
   );
 }
+      

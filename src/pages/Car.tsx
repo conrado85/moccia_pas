@@ -8,7 +8,7 @@ export default function Car() {
   return (
     <section className="bg-base-primario">
       <HeroCentered cuerpo={presentacion}  />
-      <div className="lg:max-w-3/4 flex flex-col mx-auto pt-10 pb-5 px-4 ">
+      <div className="max-w-7xl flex flex-col mx-auto pt-10 pb-5 px-4 ">
         <TableCar />
         <p>
           La franquicia es lo que pagás vos cuando hay un daño parcial (como por

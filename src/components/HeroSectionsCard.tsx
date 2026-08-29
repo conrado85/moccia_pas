@@ -7,7 +7,7 @@ type TarjetasProps = {
 
 export default function HeroSectionsCard({ tarjeta }: TarjetasProps) {
   return (
-    <div className="border border-gray-200 rounded-xl w-80 md:w-96  p-2 bg-base-secundario transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+    <div className="w-full min-h-16 p-4 border border-gray-200 rounded-xl bg-base-secundario transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
       <div className="flex justify-between">
         <div>{tarjeta.icon}</div>
         <span className="badge badge-ghost badge-sm text-blue-600">{tarjeta.cotizar}</span>
