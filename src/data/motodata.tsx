@@ -1,5 +1,3 @@
-import { type HeroCenteredCuerpo } from "../types/HeroCentered.types";
-import { type CuerpoTarjetas } from "../types/heroSections.types";
 import { type TableRow, type TableColumn } from "../types/table.types";
 
 export const rows : TableRow[] = [
