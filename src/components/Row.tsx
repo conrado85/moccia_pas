@@ -1,12 +1,10 @@
 import { X, Check } from 'lucide-react';
-import { type TableRow } from './Table'
+import { type TableRow, type CoverageStatus } from "../types/table.types";
+
 
 type RowProps = {
   row : TableRow;
 };
-
-type CoverageStatus = "included" | "excluded" | "plan";
-
 
 function CoverageIcon({ status }: { status: CoverageStatus }) {
   switch (status) {

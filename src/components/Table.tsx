@@ -1,19 +1,6 @@
 import Row from "./Row";
+import { type TableRow, type TableColumn } from "../types/table.types";
 
-export type CoverageStatus = "included" | "excluded" | "plan";
-
-
-export type TableRow = {
-  id: number;
-  cobertura: string;
-  responsabilidadCivil:CoverageStatus;
-  terceroCompleto:CoverageStatus;
-  todoRiesgo:CoverageStatus;
-};
-export type TableColumn<T> = {
-  key: keyof T;
-  label: string;
-};
 
 type TableProps<T> = {
   rows: TableRow[];
