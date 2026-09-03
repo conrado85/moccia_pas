@@ -54,7 +54,7 @@ function App() {
           <Route path="empresa/proxis" element={<Proxis />} />
 
           {/* Ruta para manejar errores 404 dentro del mismo layout */}
-          <Route path="*" element={<NotFound />} />
+         <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
