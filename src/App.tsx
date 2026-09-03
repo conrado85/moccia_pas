@@ -13,7 +13,7 @@ import HomeInsurance from './pages/HomeInsurance';
 import Rental from './pages/Rental';
 import Personal from './pages/Personal';
 import Consortium from './pages/Consortium';
-import Commerce from './pages/commerce';
+import Commerce from './pages/Commerce';
 import Art from './pages/Art';
 import Flotas from './pages/Flotas';
 import ResponsabilidadCivil from './pages/ResponsabilidadCivil';
