@@ -13,7 +13,7 @@ import HomeInsurance from './pages/HomeInsurance';
 import Rental from './pages/Rental';
 import Personal from './pages/Personal';
 import Consortium from './pages/Consortium';
-import Commerce from './pages/Commerce';
+import Comercio from './pages/Comercio';
 import Art from './pages/Art';
 import Flotas from './pages/Flotas';
 import ResponsabilidadCivil from './pages/ResponsabilidadCivil';
@@ -43,7 +43,7 @@ function App() {
           <Route path="seguros/rental" element={<Rental />} />
           <Route path="seguros/personal" element={<Personal />} />
           <Route path="seguros/consortium" element={<Consortium />} />
-          <Route path="seguros/commerce" element={<Commerce />} />
+          <Route path="seguros/comercio" element={<Comercio />} />
           {/* Rutas para la sección de empresa */}
           <Route path="empresa/art" element={<Art />} />
           <Route path="empresa/flotas" element={<Flotas />} />
