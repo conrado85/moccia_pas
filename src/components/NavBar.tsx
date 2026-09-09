@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const navItems = [
-    { name: "Aprender", path: "/learn" },
+    { name: "Productores", path: "/learn" },
     { name: "Sobre Nosotros", path: "/about" },
     { name: "Contacto", path: "/contact" },
   ];
@@ -16,15 +16,15 @@ export default function NavBar() {
     { name: "Accidentes Personales", path: "/seguros/personal" },
     { name: "Consorcio", path: "/seguros/consortium" },
   ];
-  const navCompany = [
-    { name: "ART", path: "/empresa/art" },
-    { name: "Flotas", path: "/empresa/flotas" },
-    { name: "Responsabilidad Civil", path: "/empresa/responsabilidad-civil" },
-    { name: "Caucion Obras", path: "/empresa/caucion-obras" },
-    { name: "Trasporte", path: "/empresa/trasporte" },
-    { name: "Incendio", path: "/empresa/incendio" },
-    { name: "Proxis", path: "/empresa/proxis" },
-  ];
+  // const navCompany = [
+  //   { name: "ART", path: "/empresa/art" },
+  //   { name: "Flotas", path: "/empresa/flotas" },
+  //   { name: "Responsabilidad Civil", path: "/empresa/responsabilidad-civil" },
+  //   { name: "Caucion Obras", path: "/empresa/caucion-obras" },
+  //   { name: "Trasporte", path: "/empresa/trasporte" },
+  //   { name: "Incendio", path: "/empresa/incendio" },
+  //   { name: "Proxis", path: "/empresa/proxis" },
+  // ];
 
   return (
     <div className="navbar bg-base-secundario ">
@@ -64,7 +64,7 @@ export default function NavBar() {
             </details>
           </li>
           <li>
-            <details>
+            {/* <details>
               <summary>Empresa</summary>
               <ul className="p-2 bg-base-100 w-45 z-1">
                 {navCompany.map((item) => (
@@ -73,7 +73,7 @@ export default function NavBar() {
                   </li>
                 ))}
               </ul>
-            </details>
+            </details> */}
           </li>
           {navItems.map((item) => (
             <li key={item.name}>
@@ -106,7 +106,7 @@ export default function NavBar() {
             </details>
           </li>
           <li>
-            <details>
+            {/* <details>
               <summary>Empresa</summary>
               <ul className="p-2 bg-base-100 w-45 z-1">
                 {navCompany.map((item) => (
@@ -115,7 +115,7 @@ export default function NavBar() {
                   </li>
                 ))}
               </ul>
-            </details>
+            </details> */}
           </li>
           {navItems.map((item) => (
             <li key={item.name}>

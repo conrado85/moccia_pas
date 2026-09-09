@@ -21,7 +21,7 @@ export const porque : CuerpoTarjetas[] = [
   {
     id: 1,
     subtitulo: "Cotizá al toque",
-    bajada: "Auto y moto contra 22 compañías en pantalla. Sin esperar mail, sin tener que llamar primero.",
+    bajada: "Auto y moto contra compañías en pantalla. Sin esperar mail, sin tener que llamar primero.",
     icon: <Zap  className="h-20 w-20 p-2 rounded-xl text-gray-400" />,
     
   },
