@@ -10,8 +10,8 @@ export default function LandingPage() {
       <QuoteGenerator />
       <HeroSections
         cabecera={{
-          volanta: "Por que Moccia pas?",
-          titulo: "Tres cosas que no encontrás en un 0800.",
+          volanta: "Por qué elegir Moccia pas?",
+          titulo: "Cotiza compara y obtene tu poliza, desde cualquier punto del pais. Te respondemos en el dia y personalmente, No interactúas con un robot.",
         }}
         tarjetas={porque}
       />
@@ -27,7 +27,7 @@ export default function LandingPage() {
       <div className="max-w-3/4 flex flex-col mx-auto pt-10 pb-5 px-4 ">
         <p className="py-2 text-xs text-gray-500">companias</p>
         <h2 className="text-4xl lg:text-5xl  text-gray-800 mb-3">
-          Trabajamos con las 22 compañías más serias del mercado.
+          Trabajamos con las compañías más serias del mercado.
         </h2>
         <p className="py-3 text-gray-600">
           Cotizamos contra todas en cada consulta. Sancor, Federación Patronal,

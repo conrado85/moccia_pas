@@ -1,24 +1,30 @@
-import imagen from "../assets/hero-illustration.avif";
+import imagen from "../assets/Hero-principal.png";
 export default function Hero() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={imagen} className="max-w-1/2 rounded-lg " />
-        <div>
-          <p className="py-2 text-xs text-gray-500">
-            PRODUCTOR ASESOR DE SEGUROS · MATRÍCULA SSN xxxxx
+    <div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage: `url(${imagen})`,
+      }}
+    >
+      <div className="hero-content md:pr-50 lg:pr-130 text-neutral-content">
+        <div className="max-w-2xl ">
+          <p className="py-2 text-xs text-brand-blue ">
+            PRODUCTOR ASESOR DE SEGUROS · MATRICULA SSN 82379
           </p>
-
-          <h1 className="text-5xl font-bold">
-            Cotizá tu auto o tu moto al toque contra otras compañías.
+          <h1 className="mb-5 text-5xl text-brand-blue font-bold">
+            Cotizá el seguro de auto o moto con nosotros.
           </h1>
-          <p className="py-6">
-            6 años en William C.Morris, asegurando AMBA. Te respondemos en el
-            día todo lo demás.
+          <p className="mb-5 text-brand-blue">
+            Comparamos las mejores compañías para encontrar una cobertura que se
+            adapte a vos, a tu vehículo y a tu bolsillo. Atención personalizada,
+            respuesta rápida, con minimos datos. Pedí tu cotización hoy y manejá
+            tranquilo. Desde 2019 con oficina en Zona Oeste, Aseguramos en todo
+            el pais.
           </p>
-          <button className="btn btn-primary bg-brand-blue mr-3 rounded-full">Cotizar ahora</button>
-          <button className="btn btn-success rounded-full">Hablemos de tu seguro</button>
-
+          <button className="btn btn-success rounded-full">
+            Hablemos de tu seguro
+          </button>
         </div>
       </div>
     </div>
