@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import imagen from "../assets/Hero-principal.png";
 export default function Hero() {
   return (
@@ -22,9 +23,9 @@ export default function Hero() {
             tranquilo. Desde 2019 con oficina en Zona Oeste, Aseguramos en todo
             el pais.
           </p>
-          <button className="btn btn-success rounded-full">
+          <Link to="/cotizar" className="btn btn-success rounded-full">
             Hablemos de tu seguro
-          </button>
+          </Link>
         </div>
       </div>
     </div>

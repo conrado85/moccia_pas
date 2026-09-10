@@ -92,7 +92,7 @@ export default function NavBar() {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal text-brand-blue px-1">
           <li>
             <details>
               <summary>Seguros</summary>
@@ -125,7 +125,9 @@ export default function NavBar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary bg-brand-blue w-36 rounded-full">Cotizar</a>
+        <Link to="/cotizar" className="btn btn-primary bg-brand-blue w-36 rounded-full">
+          Cotizar
+        </Link>
       </div>
     </div>
   );

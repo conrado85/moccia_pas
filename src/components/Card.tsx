@@ -19,7 +19,7 @@ const navigate = useNavigate();
         <Bike className="h-20 w-20 text-blue-600" />
       ),
       description: "Proteje tu moto y disfruta del camino",
-      navigateTo: "/seguros/motorbike"
+      navigateTo: "/cotizar"
     },
   ];
 

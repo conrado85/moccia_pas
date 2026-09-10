@@ -45,7 +45,7 @@ export const queaseguramos : CuerpoTarjetas[] =[
     subtitulo: "Auto",
     bajada: "Resposabilidad civil, tercero completo o todo riesgo. comparado contra otras companias.",
     icon: <Car  className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/seguros/car",
+    navegacion: "/cotizar",
     cotizar: "Cotiza online",
     boton:"ver mas",
   },
@@ -54,7 +54,7 @@ export const queaseguramos : CuerpoTarjetas[] =[
     subtitulo: "Moto",
     bajada: "Cualquier cilindrada, cualquier uso. Cotizas desde el celular y cerras con el seguro que mejor se ajuste a tus necesidades.",
     icon: <Bike className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/seguros/motorbike",
+    navegacion: "/cotizar",
     cotizar: "Cotiza online",
     boton:"ver mas",
   },
@@ -63,7 +63,7 @@ export const queaseguramos : CuerpoTarjetas[] =[
     subtitulo: "Hogar",
     bajada: "Incendio, robo, daños electricos y RC. Cotizacion por WhatsApp el mismo dia habil.",
     icon: <House className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/seguros/homeInsurance",
+    navegacion: "/cotizar",
     boton:"ver mas",
   },
   {
@@ -71,7 +71,7 @@ export const queaseguramos : CuerpoTarjetas[] =[
     subtitulo: "Comercio",
     bajada: "Para tu local: incendio, robo, daños electricos y RC frente a clientes y cristales.",
     icon: <Store className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/seguros/commerce",
+    navegacion: "/cotizar",
     boton:"ver mas",
   },
   {
@@ -79,7 +79,7 @@ export const queaseguramos : CuerpoTarjetas[] =[
     subtitulo: "Caucion alquiles",
     bajada: "Alquila sin garantia propietaria. Emitimos por companias con la garantia propietaria.",
     icon: <FileText className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/seguros/rental",
+    navegacion: "/cotizar",
     boton:"ver mas",
   },
 ]
@@ -91,7 +91,7 @@ export const empresa : CuerpoTarjetas[] =[
     subtitulo: "ART",
     bajada: "Asociart, Experta, Provincia ART, SMG ART y mas.",
     icon: <Shield  className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/empresa/art",
+    navegacion: "/cotizar",
     boton:"ver ramo ->"
   },
   {
@@ -99,7 +99,7 @@ export const empresa : CuerpoTarjetas[] =[
     subtitulo: "FLOTAS",
     bajada: "Desde 3 vehiculos en adelante, con descuentos por volumen.",
     icon: <Truck className="h-12 w-12 p-2 rounded-xl text-blue-600 " />,
-    navegacion: "/empresa/flotas",
+    navegacion: "/cotizar",
     boton:"ver ramo ->"
   },
   {
@@ -107,7 +107,7 @@ export const empresa : CuerpoTarjetas[] =[
     subtitulo: "Responsabilidad Civil",
     bajada: "RC empresas,RC profecionales, RC contractual.",
     icon: <Scale className="h-12 w-12 p-2 rounded-xl text-blue-600 " />,
-    navegacion: "/empresa/responsabilidad-civil",
+    navegacion: "/cotizar",
     boton:"ver ramo ->"
   },
   {
@@ -115,7 +115,7 @@ export const empresa : CuerpoTarjetas[] =[
     subtitulo: "Caución obras",
     bajada: "Garantias de licitacion, anticipo, ejecucion.",
     icon: <Forklift className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/empresa/caucion-obras",
+    navegacion: "/cotizar",
     boton:"ver ramo ->"
   },
   {
@@ -123,7 +123,7 @@ export const empresa : CuerpoTarjetas[] =[
     subtitulo: "Transporte",
     bajada: "Mercaderia en transito nacional e internacional.",
     icon: <Package2  className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/empresa/trasporte",
+    navegacion: "/cotizar",
     boton:"ver ramo ->"
   },
   {
@@ -131,7 +131,7 @@ export const empresa : CuerpoTarjetas[] =[
     subtitulo: "Incendio",
     bajada: "Galpones, depositos y comercios grandes.",
     icon: <Flame className="h-12 w-12 p-2 rounded-xl text-blue-600" />,
-    navegacion: "/empresa/trasporte",
+    navegacion: "/cotizar",
     boton:"ver ramo ->"
   },
 ]

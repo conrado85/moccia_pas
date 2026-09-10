@@ -56,9 +56,9 @@ export const CotizadorWhatsApp = () => {
       </div>
 
       {/* Campo Nombre */}
-      <div className="form-control text-brand-blue w-full">
+      <div className="form-control w-full">
         <label className="label">
-          <span className="label-text font-medium">Nombre completo</span>
+          <span className="label-text font-medium ">Nombre completo</span>
         </label>
         <input
           type="text"
