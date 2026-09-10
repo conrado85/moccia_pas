@@ -32,9 +32,9 @@ const navigate = useNavigate();
           onClick={() => navigate(item.navigateTo)}
         >
           <div className="flex justify-center items-center">{item.icon}</div>
-          <p className="text-2xl font-bold">{item.name}</p>
-          <p className="text-lg text-gray-600">{item.description}</p>
-          <MoveRight className="h-6 w-6 text-blue-600 mt-2 mx-auto" />
+          <p className="text-2xl font-bold text-brand-blue">{item.name}</p>
+          <p className="text-lg text-brand-blue">{item.description}</p>
+          <MoveRight className="h-6 w-6 text-brand-blue mt-2 mx-auto" />
         </div>
       ))}
     </>
