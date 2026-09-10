@@ -33,11 +33,11 @@ export default function Row({ row }: RowProps) {
       </td>
 
       <td>
-        <CoverageIcon status={row.todoRiesgo} />
+        <CoverageIcon status={row.terceroCompleto} />
       </td>
 
       <td>
-        <CoverageIcon status={row.terceroCompleto} />
+        <CoverageIcon status={row.todoRiesgo} />
       </td>
     </tr>
   );

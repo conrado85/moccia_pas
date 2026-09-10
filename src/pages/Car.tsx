@@ -29,7 +29,7 @@ export default function Car() {
               cabecera={{
                 volanta: "04 · ANTES DE COTIZAR TE CONVIENE SABER",
                 titulo: "Tres cosas que te van a ahorrar plata.",
-                copete:"No es FAQ. Son cosas que aprendimos en 30 años y que casi nadie te explica antes de firmar.",
+                copete:"No es FAQ. Son cosas que aprendimos con los años y que casi nadie te explica antes de firmar.",
               }}
               tarjetas={saber}
             />
