@@ -12,8 +12,8 @@ export default function HeroSectionsCard({ tarjeta }: TarjetasProps) {
         <div>{tarjeta.icon}</div>
         <span className="badge badge-ghost badge-sm text-blue-600">{tarjeta.cotizar}</span>
       </div>
-      <p className="text-lg font-bold text-gray-800 ">{tarjeta.subtitulo}</p>
-      <p className="text-md text-gray-600">{tarjeta.bajada}</p>
+      <p className="text-lg font-bold text-brand-blue ">{tarjeta.subtitulo}</p>
+      <p className="text-md text-brand-blue">{tarjeta.bajada}</p>
       {tarjeta.navegacion && <Link to={tarjeta.navegacion} className="mt-3 text-blue-400">{tarjeta.boton}</Link>}
     </div>
   );

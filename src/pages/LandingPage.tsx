@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import HeroSections from "../components/HeroSections";
 import QuoteGenerator from "../components/QuoteGenerator";
@@ -25,29 +26,29 @@ export default function LandingPage() {
         />
       </div>
       <div className="max-w-3/4 flex flex-col mx-auto pt-10 pb-5 px-4 ">
-        <p className="py-2 text-xs text-gray-500">companias</p>
-        <h2 className="text-4xl lg:text-5xl  text-gray-800 mb-3">
+        <p className="py-2 text-xs text-brand-blue">companias</p>
+        <h2 className="text-4xl lg:text-5xl  text-brand-blue mb-3">
           Trabajamos con las compañías más serias del mercado.
         </h2>
-        <p className="py-3 text-gray-600">
+        <p className="py-3 text-brand-blue">
           Cotizamos contra todas en cada consulta. Sancor, Federación Patronal,
           Allianz, Mapfre, Galicia, Provincia, Nación y catorce más.
         </p>
-        <button className="btn btn-primary w-56 bg-brand-blue mb-5 rounded-full">
+        <Link to="/cotizar"  className="btn btn-primary w-56 bg-brand-blue mb-5 rounded-full">
           ver las companias
-        </button>
+        </Link>
       </div>
       <div className="max-w-3/4 flex flex-col mx-auto pt-10 pb-5 px-4 ">
-        <p className="py-2 text-xs text-gray-500">nuestra historia</p>
-        <h2 className="text-4xl lg:text-5xl  text-gray-800 mb-3">
+        <p className="py-2 text-xs text-brand-blue">nuestra historia</p>
+        <h2 className="text-4xl lg:text-5xl  text-brand-blue mb-3">
           Por qué hacemos lo que hacemos.
         </h2>
-        <p className="py-3 text-gray-600">
+        <p className="py-3 text-brand-blue">
           Hace más de 30 años, los abuelos de Tomás sufrieron el incendio de su casa en Mar del Plata. Estaba asegurada, pero la póliza estaba mal hecha: la indemnización no alcanzó ni para reconstruir un 20%. A partir de eso, el padre de Victorio decidió estudiar seguros para que a nadie más le pasara lo mismo. Así nació este estudio que hoy sigue Tomás, con el mismo trato cercano y la misma obsesión: explicarte la póliza antes de que la firmes.
         </p>
-        <button className="btn btn-primary w-56 bg-brand-blue mb-5 rounded-full">
+        <Link to="/cotizar"  className="btn btn-primary w-56 bg-brand-blue mb-5 rounded-full">
           Conoce Moccia PAS
-        </button>
+        </Link>
       </div>
       <div className="bg-blue-100">
         <HeroSections
