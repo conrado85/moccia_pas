@@ -76,7 +76,7 @@ export default function QuoteForm({ className }) {
       `*Detalles adicionales:* ${data.mensaje?.trim() || "Sin detalles"}`,
     ].join("\n");
 
-    const urlWhatsApp = `https://wa.me/5491133539040?text=${encodeURIComponent(textoMensaje)}`;
+    const urlWhatsApp = `https://wa.me/5491158358414?text=${encodeURIComponent(textoMensaje)}`;
     window.open(urlWhatsApp, "_blank", "noopener,noreferrer");
   }
 

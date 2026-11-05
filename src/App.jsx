@@ -12,12 +12,13 @@ const navigation = [
   { label: "Cotizar Seguro", href: "#cotizador-section" },
   { label: "Testimonios", href: "#testimonials-section" },
   { label: "Contacto", href: "#cotizador-section" },
+  { label: "Sobre Nosotros", href: "#sobre-nosotros" },
 ];
 
 function Brand() {
   return (
     <a className="brand" href="#inicio" aria-label="Moccia Pas, inicio">
-      moccia pas
+      Moccia Pas
     </a>
   );
 }
